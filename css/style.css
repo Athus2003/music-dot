@@ -1,25 +1,20 @@
 body {
     font-family: Arial, sans-serif;
     max-width: 940px;
-    margin: 0 auto;
-    padding: 0 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .titulo-principal {
     color: #3d3d3d;
     background-color: #e1edf2;
-    border-bottom: 0;
     padding: 10px;
     margin-bottom: 20px;
     font-size: 2em;
 }
 
-h2 {
-    color: #3d3d3d;
-    border-bottom: 2px solid #3d3d3d;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-    font-size: 1.5em;
+.subtitulo {
+    border-bottom: 2px solid #3d3d3d ;
 }
 
 figure {
