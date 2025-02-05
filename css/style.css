@@ -5,23 +5,29 @@ body {
     padding: 0 30px;
 }
 
-h1 {
+/* Estilo compartilhado para h1 e o h2 com classe título-principal */
+.titulo-principal {
     color: #3d3d3d;
     background-color: #e1edf2;
+    border-bottom: 0;
     padding: 10px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    font-size: 2em;
 }
 
+/* Estilo para outros h2 */
 h2 {
-    color: #3d3d3d; 
+    color: #3d3d3d;
     border-bottom: 2px solid #3d3d3d;
-    padding-bottom: 5px; 
+    padding-bottom: 5px;
     margin-bottom: 15px;
+    font-size: 1.5em;
 }
 
+/* Estilo genérico para figuras */
 figure {
     text-align: center;
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5;
     padding: 15px;
 }
 
@@ -35,12 +41,11 @@ figure.familia {
     margin-left: 30px;
     float: right;
 }
-figure img {
-    max-width: 100%; 
-    height: auto;   
-    display: block; 
-}
 
+figure img {
+    max-width: 100%;
+    display: block;
+}
 figcaption {
     margin-top: 10px;
     color: #a0a0a0; 
