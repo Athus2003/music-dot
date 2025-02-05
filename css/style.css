@@ -24,27 +24,28 @@ h2 {
 
 figure {
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: whitesmoke;
+    color:  lightgray;
     padding: 15px;
+    border: 1px solid lightgrey;
 }
 
 figure.matriz {
     width: 550px;
-    margin: 30px auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 figure.familia {
     width: 275px;
-    margin-left: 30px;
     float: right;
 }
 
 figure img {
     max-width: 100%;
-    display: block;
 }
+
 figcaption {
     margin-top: 10px;
-    color: #a0a0a0; 
-    font-size: 0.9em; 
+    color: black;
 }
