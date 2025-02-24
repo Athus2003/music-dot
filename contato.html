@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--Formulário Contato--</title>
+    <link rel="icon" href="img/favicon.ico" type="image/png">
+</head>
+<body style="font-family: Arial, sans-serif;">
+
+    <header>
+      <p> <img src="img/logo.svg" alt="logo da MusicDot">
+    </header> </p>    
+    <table width="100%" bgcolor="#d9edf7">
+        <tr>
+            <td height="50" align="left" valign="middle">
+                <h1 style="margin: 0; padding: 10px;">Entre em contato</h1>
+            </td>
+        </tr>
+    </table>   
+
+    <form action="processa_formulario.php" method="post">
+         
+        <p> <input type="text" id="nome" name="nome" placeholder="..." size="75" style="height:30px;">
+            <label for="nome">Nome:</label></p>
+
+        <p> <input type="tel" id="fone" name="fone" placeholder="(xx)xx-xx-xx-xx" size="75" style="height:30px;">
+            <label for="fone">Fone:</label></p>
+        
+        <p> <input type="email" id="email" name="email" placeholder="fulano@mail.com" size="75" style="height:30px;">
+            <label for="email">Email:</label></p>
+        
+        <p>  <textarea id="observacao" name="observacao" placeholder="Deixe sua opinião" cols="70" rows="15"></textarea>
+        </p>
+         <p>  <button type="submit" style="width:100px; height:50px; background-color:white; color:black; font-weight:bold; border:2px solid black; cursor:pointer;">
+                Enviar
+            </button>
+        </p>
+    </form>
+</body>
+</html>
