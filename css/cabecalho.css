@@ -1,0 +1,38 @@
+/* Ajustando espaçamento do cabeçalho e a fonte */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #2D5377;
+    padding: 2px;
+}
+/* Ajustando o tamanho da logo */
+header img {
+    width: 200px;
+    display: block;
+}
+/* Removendo marcadores da lista e alinhando itens */
+nav ul {
+    list-style: none;
+    margin-top: 2px;
+}
+/* Deixando os links brancos e sem sublinhado */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* Aplicando espaçamento para evitar que o conteúdo fique colado no cabeçalho */
+main {
+    padding: 40px 20px;
+    color: #2E4255; /* Cor escura do texto */
+}
+/* Reset CSS para remover margens e paddings padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
